@@ -1,45 +1,50 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <title>Mr. Luke's Cool Website</title>
-    </head>
 
-    <body>
-        <!-- All content goes here -->
-        <div> 
-            <nav>
-                <h1>Mr. Luke's Website</h1>
-                <ul>
-                    <li>
-                      <a href="index.html"> Home </a>
-                    </li>
-                    <li>
-                      <a href="portfolio.html"> Portfolio </a>
-                    </li>
-                </ul>
-            </nav>
+<head>
+    <title>Mr. Luke's Cool Website</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-            <main>
-                <!-- Sidebar section -->
-                <div>
-                    <img src="https://i.etsystatic.com/5215360/r/il/1a4033/1273120137/il_1080xN.1273120137_dpwe.jpg">
+</head>
+
+<body>
+    <!-- All content goes here -->
+    <div id="all-contents">
+        <nav>
+            <h1>Mr. Luke's Website</h1>
+            <ul id="nav-ul">
+                <li class="nav-li">
+                    <a href="index.html"> Home </a>
+                </li>
+                <li class="nav-li">
+                    <a href="portfolio.html"> Portfolio </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <!-- Sidebar section -->
+            <div class="sidebar">
+                <img class="sidebar-img" src="https://static.euronews.com/articles/stories/07/52/62/06/1000x563_cmsv2_ed8c4623-b581-5d9e-9f9f-0fc217d7503e-7526206.jpg">
+            </div>
+
+            <!-- Content section -->
+            <div>
+                <h2>Mr. Luke</h2>
+                <p>Software Engineer and Instructor at Operation Spark</p>
+                <!-- Interests section -->
+                <div id="interests">
+                    <h3>Interests</h3>
+                    <ul>
+                        <li>Sculpting</li>
+                        <li>Gaming</li>
+                        <li>Wood Working</li>
+                    </ul>
                 </div>
+            </div>
+        </main>
+    </div>
+</body>
 
-                <!-- Content section -->
-                <div>
-                    <h2>Mr. Luke</h2>
-                    <p>Software Engineer and Instructor at Operation Spark</p>
-                    <!-- Interests section -->
-                    <div>
-                        <h3>Interests</h3>
-                        <ul>
-                            <li>Sculting</li>
-                            <li>Gaming</li>
-                            <li>Wood Working</li>
-                        </ul>
-                    </div>
-                </div>
-            </main>
-        </div>
-    </body>
 </html>
