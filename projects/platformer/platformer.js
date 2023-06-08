@@ -50,14 +50,21 @@ $(function () {
 
 
 
-    
+var yAxis = 750
+var xAxis = 0
+    for (var i = 0; i <= 750; i++) {
+      yAxis = yAxis - 1
+      xAxis = xAxis + 2
+      createPlatform(xAxis, yAxis, 10, 10)
+    }
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
-
+    createCollectable('steve', 100, 300)
+    createCollectable("bambino", 500, 300, 20, 0.5);
 
 
     // TODO 3
